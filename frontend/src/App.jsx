@@ -180,6 +180,7 @@ const App = () => {
 
 
     const socket = io('https://tic-tac-toe-multiplayer-v90m.onrender.com/', {
+      transports: ["websocket"],
       autoConnect: true,
     });
 
