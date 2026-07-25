@@ -267,7 +267,7 @@ const App = () => {
           <h3 className='finished-state'>Game Drawn.</h3>
         )}
         {opponentName && !finishedState && (
-          <h2 className='playing-against'>You are playing against {opponentName}.</h2>
+          <h2 className='playing-against'>You are playing as {playingAs}.</h2>
         )}
       </div>
 

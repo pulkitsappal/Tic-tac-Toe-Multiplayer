@@ -65,7 +65,7 @@ const Square = ({ socket, finishedState, setFinishedState, finishedArrayState, s
     }
 
     if (!icon) {
-      if (currentPlayer === 'circle') {
+      if(currentPlayer === 'circle') {
         setIcon(circleSvg);
       }
       else {
